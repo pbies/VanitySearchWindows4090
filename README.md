@@ -6,13 +6,13 @@ This is a modified version of VanitySearch by [JeanLucPons](https://github.com/J
 # Build
 - Edit the makefile and set up the appropriate CUDA SDK and compiler paths for nvcc.
     ```
-    ccap=86
+    ccap=89
     
     ...
     
-    CXX        = g++-9
-    CUDA       = /usr/local/cuda-11.7
-    CXXCUDA    = /usr/bin/g++-9
+    CXX        = g++-13
+    CUDA       = /usr/local/cuda-12.9
+    CXXCUDA    = /usr/bin/g++-13
     ```
 
  - Build:
@@ -32,3 +32,5 @@ This is a modified version of VanitySearch by [JeanLucPons](https://github.com/J
     1JWHHMMjU4YjVd4gU6jVw3zPMsGKMJUiQw /privatekey:20000000100000000
     13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so /targetaddress
     ```
+# Warning
+- This version will not write the private key to the output file!
