@@ -32,5 +32,6 @@ This is a modified version of VanitySearch by [JeanLucPons](https://github.com/J
     1JWHHMMjU4YjVd4gU6jVw3zPMsGKMJUiQw /privatekey:20000000100000000
     13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so /targetaddress
     ```
+
 # Warning
 - This version will not write the private key to the output file!
